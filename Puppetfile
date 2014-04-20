@@ -43,19 +43,59 @@ github "foreman",     "1.2.0"
 github "gcc",         "2.0.100"
 github "git",         "2.3.0"
 github "go",          "1.1.0"
-github "homebrew",    "1.6.2"
+github "homebrew",    "1.6.1"
 github "hub",         "1.3.0"
 github "inifile",     "1.0.3", :repo => "puppetlabs/puppetlabs-inifile"
 github "nginx",       "1.4.3"
 github "nodejs",      "3.7.0"
 github "openssl",     "1.0.0"
-github "phantomjs",   "2.3.0"
+github "phantomjs",   "2.1.0"
 github "pkgconfig",   "1.0.0"
 github "repository",  "2.3.0"
-github "ruby",        "7.3.0"
+github "ruby",        "7.2.4"
 github "stdlib",      "4.1.0", :repo => "puppetlabs/puppetlabs-stdlib"
 github "sudo",        "1.0.0"
 github "xquartz",     "1.1.1"
 
+
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
+
+# libs
+## language
+github "java",        "1.4.0"
+github "php",         "1.2.0"
+# github "python",      "1.1.1"
+mod "python", :git => 'git@github.com:boxen/puppet-python.git', :ref => 'master'
+github "android",     "1.2.0"
+
+## db
+github "mysql",       "1.2.0"
+## tools
+github "wget",        "1.0.1"
+github "autoconf",    "1.0.0"
+github "libtool",     "1.0.0"
+github "pkgconfig",   "1.0.0"
+github "pcre",        "1.0.0"
+github "libpng",      "1.0.0"
+github "imagemagick", "1.2.0"
+github "xquartz",     "1.1.1"
+github "vagrant",     "3.0.7"
+
+# software
+github "skype",       "1.0.3", :repo => "FinalAngel/puppet-skype"
+github "dropbox",     "1.2.0"
+github "dashlane",    "1.0.1"
+github "iterm2",      "1.0.4"
+github "chrome",      "1.1.2"
+github "sequel_pro",  "1.0.1"
+github "virtualbox",  "1.0.11"
+github "alfred",      "1.1.8"
+github "mou",         "1.1"
+github "phpstorm",    "1.0.4"
+github "pycharm",     "1.0.4"
+github "imageoptim",  "0.0.2"
+github "hipchat",     "1.1.1"
+github "transmit",    "1.0.2"
+github "evernote",    "2.0.4"
+github "adobe_reader","1.2.0"
