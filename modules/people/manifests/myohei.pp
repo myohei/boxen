@@ -39,6 +39,7 @@ class people::myohei {
   include hipchat
   include transmit
   include evernote
+  include sublime_text_2
   # 出来なかった
   #include adobe_reader
 
@@ -64,6 +65,8 @@ class people::myohei {
       'sshfs',
       'pyenv',
       'pyenv-virtualenv',
+      'jenkins',
+      'jetty',
     ]:
   }
   # other app
