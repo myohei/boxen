@@ -64,7 +64,7 @@ github "xquartz",     "1.1.1"
 # libs
 ## language
 github "java",        "1.4.0"
-github "php",         "1.2.0"
+github "php",         "1.2.1"
 # github "python",      "1.1.1"
 mod "python", :git => 'git@github.com:boxen/puppet-python.git', :ref => 'master'
 github "android",     "1.2.0"

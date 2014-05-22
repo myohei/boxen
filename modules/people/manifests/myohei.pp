@@ -63,7 +63,7 @@ class people::myohei {
       'tree',
       'sshfs',
       'pyenv',
-      'pyenv-virtualenv'
+      'pyenv-virtualenv',
     ]:
   }
   # other app
@@ -72,5 +72,6 @@ class people::myohei {
       provider =>  pkgdmg;
   }
   exec { 'install gvm':
-    command => 'curl -s get.gvmtool.net | bash',
+    command => 'curl -s get.gvmtool.net | bash';
+  }
 }
