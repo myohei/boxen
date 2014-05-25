@@ -64,6 +64,9 @@ class people::myohei {
       'sshfs',
       'pyenv',
       'pyenv-virtualenv',
+      'jenkins',
+      'jetty',
+      'elasticsearch',
     ]:
   }
   # other app
