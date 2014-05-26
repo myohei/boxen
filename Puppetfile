@@ -81,6 +81,7 @@ github "libpng",      "1.0.0"
 github "imagemagick", "1.2.0"
 github "xquartz",     "1.1.1"
 github "vagrant",     "3.0.7"
+github "redis",	      "3.0.2"
 
 # software
 github "skype",       "1.0.3", :repo => "FinalAngel/puppet-skype"

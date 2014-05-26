@@ -21,6 +21,7 @@ class people::myohei {
   include imagemagick
   include xquartz
   include vagrant
+  include redis
 
 
   # software
@@ -67,6 +68,7 @@ class people::myohei {
       'pyenv-virtualenv',
       'jenkins',
       'jetty',
+      'elasticsearch',
     ]:
   }
   # other app
